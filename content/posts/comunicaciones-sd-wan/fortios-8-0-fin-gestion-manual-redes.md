@@ -1,4 +1,4 @@
---
+---
 title: "FortiOS 8.0: ¿Estamos ante el fin de la gestión manual de redes y seguridad?"
 date: 2026-03-29
 draft: false
