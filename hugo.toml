@@ -33,11 +33,11 @@ firewalls, SD-WAN, Zero Trust, SASE y la convergencia entre redes y seguridad.""
   # Botones de redes sociales en la home (añade los tuyos)
   [[params.socialIcons]]
     name = "linkedin"
-    url  = "https://linkedin.com/in/jaimeyanes"
+    url  = "https://linkedin.com/in/jaimeyg"
 
   [[params.socialIcons]]
     name = "github"
-    url  = "https://github.com/jaimeyanes"
+    url  = "https://github.com/jaime-yanes"
 
   [[params.socialIcons]]
     name = "rss"
@@ -109,3 +109,12 @@ firewalls, SD-WAN, Zero Trust, SASE y la convergencia entre redes y seguridad.""
 # ─────────────────────────────────────────────
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+# ─────────────────────────────────────────────
+#  MARKUP: permite HTML dentro de los archivos .md
+#  (necesario para el formulario de contacto)
+# ─────────────────────────────────────────────
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
